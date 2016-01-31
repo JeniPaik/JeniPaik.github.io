@@ -6,35 +6,7 @@
 	<title>Jeni Paik</title>
 	<!-- add meta -->
 
-	<style type="text/css">
-			body 
-				{font-family: "Lucida Console", Monaco, monospace;}
-			h1, h2, h3
-				{font-family: Consolas, monaco, monospace;}
-			/* color name */
-			h1
-				{color: gold;}
-			h1
-				{background-color: black;}
-			#nav 
-				{width: 100%;
-				float: left;
-				margin: 0px 0px 0px;
-				padding: 0px;
-				list-style: none;
-				 }
-			#nav li 
-				{float: left; }
-			#nav li a 
-				{display: block;
-				padding: 20px 110px;
-				text-decoration: none;
-				font-weight: bold;
-				color: black;}
-			#nav li a:hover 
-				{color: olive;
-				background-color: pink; }
-	</style>
+<link rel="stylesheet" type="text/css" href="style.css">
 
 
 </head>
@@ -42,14 +14,9 @@
 <body>
 	<header>
 
-
-	<h1 align="center">Crabs, Meats, & Whiskey</h1>
-	
-	<h2 align="center">A Little Ladies Guide to Eating and Drinking in Charm City</h2>
-	
 <nav>
 
-		<ul id="nav">
+		<ul class="nav-bar">
 			<li>
 				<a href="#section1">About Me</a>
 			</li>
@@ -66,6 +33,11 @@
 		</ul>
 
 </nav>
+	<h1>Crabs, Meats, & Whiskey</h1>
+	
+	<h2>A Little Ladies Guide to Eating and Drinking in Charm City</h2>
+	
+
 </br>
 </br>
 </br>
@@ -75,9 +47,9 @@
 		<img src="images/sad jeni.jpg" alt="sad jeni" width="350" length="350" >
 		</center>
 		
-		<h3 align="center">
+		<h3>
 		
-			Hello!  I'm Jeni!  A little lady who likes to eat. ALOT!
+			Hello!  I'm Jeni!  A little lady who likes to eat. <span id="alot">ALOT!</span>
 			<br>
 			Sometimes I cook but my favorite thing to do is explore Baltimore (and beyond)
 			<br>
@@ -106,7 +78,7 @@
 
 
 	<h3>Lets be Frands!</h3>
-		<ul>
+		<ul class="center-frands">
 			<li>
 				<a href="mailto:jenipaik@gmail.com">Email Me</a>
 			</li>
@@ -118,7 +90,20 @@
 		
 </br>
 
+<table>
+  <tr>
+    <th>Head</th>
+    <th>Head</th>
+  </tr>
+  <tr>
+    <td>Data</td>
+    <td>Data</td>
+  </tr>
+</table>
 	<img src="images/lobster.jpg" alt="lobster" width="350" legth="350">
+	<img src="images/sea platter.jpg" alt="sea platter.jpg" width="365" legth="365">
+	<img src="images/chicken.jpg" alt="chicken" width="350" legth="350">
+	<img src="images/slug life.jpg" alt="slug life" width="350" legth="350"> 
 
 
 </br>
@@ -176,6 +161,13 @@
 	<h3 id="section4">Adventure!</h3>
 
 
+	
+
+  
+
+
+
+
 
 
 
@@ -197,6 +189,7 @@
 
 
 </body>
+
 </html>
 
 

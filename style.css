@@ -1,0 +1,83 @@
+
+
+body {
+  background-attachment: fixed;
+  background-image: url(images/fried_chicken.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+			
+body 
+	{font-family: "Lucida Console", Monaco, monospace;}
+h1, h2, h3
+	{font-family: Consolas, monaco, monospace;}
+
+			
+h1
+	{color: gold;}
+h1
+	{text-align: center;}
+h1
+	{background-color: black;}
+h2
+	{text-align: center;}
+h3
+	{text-align: center;}
+
+
+	ul.nav-bar {
+  background-color: yellowgreen;
+  display: block;
+  list-style: none;
+  margin-top: 0;
+  width: 100%;
+  height: 35px;
+}
+
+ul.nav-bar li {
+  display: inline-block;
+  float: left;
+}
+
+ul.nav-bar a {
+  color: black;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+ul.nav-bar a:hover {
+  background-color: pink;
+  color: black;
+}
+			
+		/*	#nav 
+				{
+				padding: 0%;
+				list-style: none;
+				 }
+			#nav li 
+				{margin: 10px 5px 10px 5px;
+					width:300px;
+					text-align: center;}
+			
+			#nav li a 
+				{display: block;
+				text-decoration: none;
+				font-weight: bold;
+				color: black;
+				background-color: yellowgreen}
+			#nav li a
+			{padding: 10px 5px 10px 5px;
+				margin: 15px;}
+			#nav li a:hover 
+				{color: olive;
+				background-color: pink; }*/
+			
+.center-frands
+	{text-align: center;}
+
+
+
+
